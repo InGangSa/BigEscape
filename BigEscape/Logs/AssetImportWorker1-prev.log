@@ -1,0 +1,593 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ko' Physical Memory: 7954 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/user/Documents/GitHub/BigEscape/BigEscape
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+1425
+Successfully changed project path to: C:/Users/user/Documents/GitHub/BigEscape/BigEscape
+C:/Users/user/Documents/GitHub/BigEscape/BigEscape
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 142.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path D:/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/BigEscape/BigEscape/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   
+    VRAM:     3977 MB
+    Driver:   23.20.16.4849
+Initialize mono
+Mono path[0] = 'D:/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002438 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Domain Reload Profiling:
+	ReloadAssembly (980ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 93.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8822ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (8430ms)
+			LoadAssemblies (4249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1618ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (2348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (723ms)
+				ProcessInitializeOnLoadMethodAttributes (1405ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.52 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 6.142100 ms (FindLiveObjects: 0.377300 ms CreateObjectMapping: 0.273600 ms MarkObjects: 5.285900 ms  DeleteObjects: 0.203400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Palette/Road.prefab
+  artifactKey: Guid(75e683d7dc2c403468ace3b06a1d3839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/Road.prefab using Guid(75e683d7dc2c403468ace3b06a1d3839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119d0525e0bd58f23c1d215d970e9211') in 0.550843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/MapData/Univ.png
+  artifactKey: Guid(07a8a0e617c511646a4202657d6e57e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Univ.png using Guid(07a8a0e617c511646a4202657d6e57e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9842c48d266088220ce0ebb92a3a6bb5') in 1.815909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/MapData/Library/lib_23.asset
+  artifactKey: Guid(98e4482464906a042a96ea28c59779d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_23.asset using Guid(98e4482464906a042a96ea28c59779d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3969c7910ba257216a299dba8e9e8399') in 0.113986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/MapData/Road_pack.png
+  artifactKey: Guid(cda58e534b31f7a41b18d69073ad1276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Road_pack.png using Guid(cda58e534b31f7a41b18d69073ad1276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29aefcab9316b3f340c5be1f50f70a0') in 0.100675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/MapData/Library/lib_18.asset
+  artifactKey: Guid(c6fc9ff60068c8042a04fa846aae2f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_18.asset using Guid(c6fc9ff60068c8042a04fa846aae2f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9182896ba037fc569694c1684975bb8') in 0.085060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/MapData/Library/lib_44.asset
+  artifactKey: Guid(bd7785ab0672c4d49963bf11814a4be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_44.asset using Guid(bd7785ab0672c4d49963bf11814a4be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7833b794c3b1a84e94da4846c0aa1361') in 0.083365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/MapData/Library/lib_38.asset
+  artifactKey: Guid(55514af7620ef62478afc41dfd5cd638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_38.asset using Guid(55514af7620ef62478afc41dfd5cd638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f569c59ee52ef0454a2a39823c67c2c3') in 0.059932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/MapData/Library/lib_35.asset
+  artifactKey: Guid(58e8d2e59dce5684295e4030db5f8ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_35.asset using Guid(58e8d2e59dce5684295e4030db5f8ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a25183bdfb264cca364b4c863e20a2') in 0.053875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/MapData/Library/lib_36.asset
+  artifactKey: Guid(796d569ff178437418475b6ba12ec469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_36.asset using Guid(796d569ff178437418475b6ba12ec469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a19a4f21e1410b1db3bac6c63e0865') in 0.083428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/MapData/Library/lib_39.asset
+  artifactKey: Guid(852b1203f3b1776499be64d25ebca774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_39.asset using Guid(852b1203f3b1776499be64d25ebca774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b49f2c2675d9633a51dff25065bc16') in 0.056345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/MapData/Library/lib_5.asset
+  artifactKey: Guid(af6823d49c6a2a245922040e2f7ae14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_5.asset using Guid(af6823d49c6a2a245922040e2f7ae14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e243235c93e986d77ff2e54e446a0e8e') in 0.050190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/MapData/Library/lib_41.asset
+  artifactKey: Guid(79508aecbfe826c4089c3f02f48967ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_41.asset using Guid(79508aecbfe826c4089c3f02f48967ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0dd317327a9ea55cd4763764723a36') in 0.040125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Palette/Library.prefab
+  artifactKey: Guid(ffb3d704599f6ee4aa410e73ffab8cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/Library.prefab using Guid(ffb3d704599f6ee4aa410e73ffab8cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39656b737b5f2bab1b85997de45817e1') in 0.486276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/MapData/Library/lib_3.asset
+  artifactKey: Guid(06d8d558f4143f749bd30c4cf952e0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_3.asset using Guid(06d8d558f4143f749bd30c4cf952e0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8b2d288c175b751e4b588d1b2db293') in 0.024107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/MapData/Library/lib_9.asset
+  artifactKey: Guid(51a508dd2d3cdfd428402ac86ab52513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_9.asset using Guid(51a508dd2d3cdfd428402ac86ab52513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e002acef5113114ec6b9f8691fe4b2e') in 0.023317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/MapData/Library/lib_12.asset
+  artifactKey: Guid(70c143339b004a64e9b7f0ed937762e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_12.asset using Guid(70c143339b004a64e9b7f0ed937762e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ead5351b093333642a113df8f4caab') in 0.046522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Palette/Engineering.prefab
+  artifactKey: Guid(6250d59696a6871418cf105d623f796a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/Engineering.prefab using Guid(6250d59696a6871418cf105d623f796a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7495b854b56ae5970edd07513736900') in 1.144672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/MapData/Hospital.png
+  artifactKey: Guid(8881412f49418bc4fa81df20aa4561a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Hospital.png using Guid(8881412f49418bc4fa81df20aa4561a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943eec9c6c0e8557e77bb4958b2b28ba') in 0.727210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/MapData/Library/lib_7.asset
+  artifactKey: Guid(61a15511e1fdfc54da9eefa6c35289b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_7.asset using Guid(61a15511e1fdfc54da9eefa6c35289b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846705d191179f78d54e84d56978b6e2') in 0.101136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/MapData/Library/lib_27.asset
+  artifactKey: Guid(dc8725ac429dedc469fbb8918872de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_27.asset using Guid(dc8725ac429dedc469fbb8918872de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee52f4b7bdfb8b8e9ba2f93acd7f893') in 0.041730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/MapData/Library/lib_13.asset
+  artifactKey: Guid(a2c080a6986547c48911b04fc2870508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_13.asset using Guid(a2c080a6986547c48911b04fc2870508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f6b781363d79957d8ec482a473c40a') in 0.034932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/MapData/Library/lib_42.asset
+  artifactKey: Guid(4748024fd88ac614aa10a78ffa9e6d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_42.asset using Guid(4748024fd88ac614aa10a78ffa9e6d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561a25fa71e3f9b943050e5b7d731947') in 0.060380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/MapData/Library/lib_45.asset
+  artifactKey: Guid(6ee72d6602197964a8ff85656e75be24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_45.asset using Guid(6ee72d6602197964a8ff85656e75be24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93ff19eb16cff45a62c9275781f7fa7') in 0.034916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Palette/CPU.prefab
+  artifactKey: Guid(1a0c733be88b30042a5c77d378065ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/CPU.prefab using Guid(1a0c733be88b30042a5c77d378065ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7ba7e75fadd98f5791a7b0bdd4498f') in 1.239539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Palette/Playground.prefab
+  artifactKey: Guid(3011d69ada417504da02841f48d4e98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/Playground.prefab using Guid(3011d69ada417504da02841f48d4e98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd385dec13e86b20d4ed5553048fca9d4') in 4.395548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/MapData/Library/lib_29.asset
+  artifactKey: Guid(c4b4191726ffa42459a4435c443bf821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_29.asset using Guid(c4b4191726ffa42459a4435c443bf821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27f13285c25f8e3a1a61d1aa2107616') in 0.026449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Palette/School.prefab
+  artifactKey: Guid(95e70cabf84a99d439e5682761889bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/School.prefab using Guid(95e70cabf84a99d439e5682761889bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb1603924a1cd93c915dd517d822c2c') in 1.243051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/MapData/Library/lib_0.asset
+  artifactKey: Guid(e1b1c576a13b9714ab4539d239c4d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_0.asset using Guid(e1b1c576a13b9714ab4539d239c4d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd820e73e311fc225f7122344904f2301') in 0.028798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/MapData/Library/lib_6.asset
+  artifactKey: Guid(0b846e3cc3d6d0e4e97ebae9ff421b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_6.asset using Guid(0b846e3cc3d6d0e4e97ebae9ff421b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489fd099810f7b6b2b7acd35ac949c28') in 0.038703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/MapData/Library/lib_15.asset
+  artifactKey: Guid(7d0e356f3faa85d4ebe0f64e904e4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_15.asset using Guid(7d0e356f3faa85d4ebe0f64e904e4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c75f05b9b7a836fb4b84742b02fd633') in 0.055537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/MapData/Library/lib_8.asset
+  artifactKey: Guid(e2509785b89136f4cbb7079f111702bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_8.asset using Guid(e2509785b89136f4cbb7079f111702bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0e0e4a5d2a623490f4d534ea5bdfdc') in 0.024664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/MapData/Library/lib_20.asset
+  artifactKey: Guid(c0c2cd7ad6c8cc148b881e5e4103adec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_20.asset using Guid(c0c2cd7ad6c8cc148b881e5e4103adec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f15ea2fc340d860e809aa21fba35fc') in 0.040145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/MapData/Library/lib_48.asset
+  artifactKey: Guid(354cce3309e9dea4e95982412a117e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_48.asset using Guid(354cce3309e9dea4e95982412a117e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04db4eb29ac3368a28084b76f879457a') in 0.061408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/MapData/grass.png
+  artifactKey: Guid(65ff1df3d4955e340a3f82af050ff4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/grass.png using Guid(65ff1df3d4955e340a3f82af050ff4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141bc679a21f4f1bd4531afda1d17807') in 0.026831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/MapData/Library/lib_43.asset
+  artifactKey: Guid(4134f35963e4c1146a97ab9957868138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_43.asset using Guid(4134f35963e4c1146a97ab9957868138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18bafd5f63dceaa15924b340e1327ab') in 0.039216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/MapData/Library/lib_22.asset
+  artifactKey: Guid(d1c9f762c98e575468d6f0673dd4dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_22.asset using Guid(d1c9f762c98e575468d6f0673dd4dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947fe5665d162b97bfecce6e18fec5f6') in 0.052725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/MapData/Library/lib_34.asset
+  artifactKey: Guid(3e5f2c7054759764cbdc077312a24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_34.asset using Guid(3e5f2c7054759764cbdc077312a24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7872ce80eb1331d4e542c21e48e15e4d') in 0.050266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001112 seconds.
+  path: Assets/MapData/Cafeteria.png
+  artifactKey: Guid(db46ce1c5abe19847a1461bfe9258f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Cafeteria.png using Guid(db46ce1c5abe19847a1461bfe9258f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51170bb1a03220c238d8ea94944ba5f0') in 0.435355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/MapData/New.png
+  artifactKey: Guid(15aa97fb0b0d192408db7928facab00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/New.png using Guid(15aa97fb0b0d192408db7928facab00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a3f127b15adbf79722820d21698f77') in 0.392139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/MapData/Library/lib_17.asset
+  artifactKey: Guid(3da2aa08aacef974ab2cf4ed2808fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_17.asset using Guid(3da2aa08aacef974ab2cf4ed2808fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b03fed1a6e44db67c731df0abd30ef0') in 0.057023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/MapData/School.png
+  artifactKey: Guid(746415d71f1a9634fbf237f595bcbd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/School.png using Guid(746415d71f1a9634fbf237f595bcbd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa32b91860f7b1eee79d582e6c7b7b26') in 0.520390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Palette/New.prefab
+  artifactKey: Guid(0f8c11840a5cc3d4c8f5582da7177d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/New.prefab using Guid(0f8c11840a5cc3d4c8f5582da7177d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83f112cace6c4f3d47e95b4f743c304') in 0.898491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/MapData/Library/lib_1.asset
+  artifactKey: Guid(2f4a3c11c7b17f54693cf28841b32776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_1.asset using Guid(2f4a3c11c7b17f54693cf28841b32776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205d0c02ac731bb6c1eb1847f08e4ae1') in 0.061722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/MapData/Library/lib_32.asset
+  artifactKey: Guid(0b2d2f54246ba354ba76660e4a6b18f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_32.asset using Guid(0b2d2f54246ba354ba76660e4a6b18f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f327ad61b3190e8b3bc9a0cd99d9da30') in 0.046616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/MapData/Library
+  artifactKey: Guid(c4f0846675dbb9844a4805e7289ad3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library using Guid(c4f0846675dbb9844a4805e7289ad3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4beaba95bbd58a8850c539dc830eeecf') in 0.012681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/UIData/UI.png
+  artifactKey: Guid(666755c9065457c40b3d0f647e9a4ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIData/UI.png using Guid(666755c9065457c40b3d0f647e9a4ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71ea79ed7f3bd46a220f92ce01cf81e') in 0.062120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Palette/Cafeteria.prefab
+  artifactKey: Guid(be17f1477277d6c448c64cc17cc84a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/Cafeteria.prefab using Guid(be17f1477277d6c448c64cc17cc84a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c7f81683c2999bd8b9840a998ad4b1') in 0.761016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/MapData/Library/lib_10.asset
+  artifactKey: Guid(9e72b4d50899087499750cbb0a2cc449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_10.asset using Guid(9e72b4d50899087499750cbb0a2cc449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e5097fe2949005e4af5ae15b125fc9') in 0.054796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/MapData/CPU.png
+  artifactKey: Guid(edd50de89b5a1a24793bf59a713b98e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/CPU.png using Guid(edd50de89b5a1a24793bf59a713b98e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19582eb94d505ede9ca6d3e30fa21246') in 0.560662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/MapData/fountain_square.png
+  artifactKey: Guid(26d0dfdafeea7874395a145cfc214d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/fountain_square.png using Guid(26d0dfdafeea7874395a145cfc214d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af26fe7f0f5a8dff56231bfcf976b9ad') in 0.565682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Palette/Hospital.prefab
+  artifactKey: Guid(61fa27a2e2f68784e99602850677edc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/Hospital.prefab using Guid(61fa27a2e2f68784e99602850677edc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1447becde6482d3e99dd4960a5a3aff7') in 1.377778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/MapData/Library/lib_2.asset
+  artifactKey: Guid(30f0977d0ae28eb4381f5b4161654d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_2.asset using Guid(30f0977d0ae28eb4381f5b4161654d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85a9140a2b48dbcf0ba31889917d0d4') in 0.035658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/MapData/Tree_1.png
+  artifactKey: Guid(09e1638ed2a8e3d43a5430b88756ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Tree_1.png using Guid(09e1638ed2a8e3d43a5430b88756ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98c30d2653756a1d1468f2b4a114fda') in 0.094048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/MapData/Library/lib_21.asset
+  artifactKey: Guid(599f9dc6e0db48243921e104ded1b5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_21.asset using Guid(599f9dc6e0db48243921e104ded1b5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09db1381467379d5f00bc35459c3e54') in 0.059234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/MapData/Library/lib_19.asset
+  artifactKey: Guid(fa9512642de127f49a49f49b09acbb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_19.asset using Guid(fa9512642de127f49a49f49b09acbb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9988c570866e634e91bb962a86801e47') in 0.064674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Palette/Univ.prefab
+  artifactKey: Guid(cb6ce6e64662f4249b84ba3e686d8318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/Univ.prefab using Guid(cb6ce6e64662f4249b84ba3e686d8318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1edeb28cc13b5e73962f45891675f36') in 3.679015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/UIData/NEXONLv1GothicRegular.ttf
+  artifactKey: Guid(8c5ce099d316fe0428115305d97589ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIData/NEXONLv1GothicRegular.ttf using Guid(8c5ce099d316fe0428115305d97589ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3670d969ca7a1919150912ab96ea1a') in 0.575021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/MapData/Library/lib_25.asset
+  artifactKey: Guid(21a55e225cd0d9e459d913760ddd9569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_25.asset using Guid(21a55e225cd0d9e459d913760ddd9569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fa855c15021ce41d80d27965857328') in 0.056087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/MapData/Library/lib_28.asset
+  artifactKey: Guid(e5805982bc73b2442952130c3e6678ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_28.asset using Guid(e5805982bc73b2442952130c3e6678ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56bdd05de4812d10bc072f6b6e98549') in 0.042686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/MapData/Playground.png
+  artifactKey: Guid(302010c3e0b7a86408457a1e9085e2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Playground.png using Guid(302010c3e0b7a86408457a1e9085e2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5e11a3478b3f4784d441faccbc02bd') in 1.984227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/MapData/Library/lib_33.asset
+  artifactKey: Guid(f9e8e0d87ea171746bffeb2ebe44bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_33.asset using Guid(f9e8e0d87ea171746bffeb2ebe44bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe069d94368ee2af88f26f0218b9fef') in 0.024085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/MapData/Library/lib_47.asset
+  artifactKey: Guid(3a6ba29f0314e604b835804fc07cc17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_47.asset using Guid(3a6ba29f0314e604b835804fc07cc17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14be1d9c209a0b1c855447b1c8fbc017') in 0.058223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/MapData/Library/lib_11.asset
+  artifactKey: Guid(fb2991398ae45ef45a4c3ea09b973c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_11.asset using Guid(fb2991398ae45ef45a4c3ea09b973c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f83b4f22c169c229a6c0105f6384600') in 0.028098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/MapData/Library/lib_26.asset
+  artifactKey: Guid(c69d014ac0a50144ead20582ec99df1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_26.asset using Guid(c69d014ac0a50144ead20582ec99df1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dd9acfd07d214296534a9270141644') in 0.030903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/MapData/Engineering.png
+  artifactKey: Guid(6053f54e72addf54590f77cab7d6c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Engineering.png using Guid(6053f54e72addf54590f77cab7d6c463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde7dc0c34c55d6d1d96de117559d908') in 0.525455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/MapData/Library/lib_24.asset
+  artifactKey: Guid(eb36f957f73e404428d3b79ab4aceec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_24.asset using Guid(eb36f957f73e404428d3b79ab4aceec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbbcd77b603c8f73dd45f21d418dfec') in 0.034088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/MapData/lib.png
+  artifactKey: Guid(be69f524549f7644090e44206531e248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/lib.png using Guid(be69f524549f7644090e44206531e248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bc84f060ac6d143a48b82920df8e68') in 0.286246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/MapData/Library/lib_14.asset
+  artifactKey: Guid(d8b03d13776cf40489913e95d69d0069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_14.asset using Guid(d8b03d13776cf40489913e95d69d0069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e396e217750d7965749681f261aac074') in 0.026132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/MapData/Library/lib_30.asset
+  artifactKey: Guid(25e4c4ffc61b5d147bd208dac6054777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_30.asset using Guid(25e4c4ffc61b5d147bd208dac6054777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426d1214612383928a5c6ba9b20b2e39') in 0.065513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/MapData/Library/lib_16.asset
+  artifactKey: Guid(281334d2e516a7b4e99628e1dc6a389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_16.asset using Guid(281334d2e516a7b4e99628e1dc6a389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d287cb08cece0e04499f7968417217e') in 0.075737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/MapData/Library/lib_37.asset
+  artifactKey: Guid(4eb969b0744c0864aba946eeb728e5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_37.asset using Guid(4eb969b0744c0864aba946eeb728e5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e9230d4fa6628488cc3d8fdae0ed31') in 0.054886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/MapData/Library/lib_40.asset
+  artifactKey: Guid(644bf7654c677a042a437ebb30829f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_40.asset using Guid(644bf7654c677a042a437ebb30829f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b2c508d827aab6fd1b0e0eb04b93ed') in 0.067870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001055 seconds.
+  path: Assets/Palette/Fountain.prefab
+  artifactKey: Guid(2c106249054d1a44d8d63edf35f621d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palette/Fountain.prefab using Guid(2c106249054d1a44d8d63edf35f621d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2241e4af154f6bff02374125d2abb90f') in 1.041856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/MapData/Road_2.png
+  artifactKey: Guid(3bbe3fb87a92b0e41ba2ef06e834c5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Road_2.png using Guid(3bbe3fb87a92b0e41ba2ef06e834c5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fa177c301c7af03732aa12771f27b8') in 0.032525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/MapData/Library/lib_4.asset
+  artifactKey: Guid(ad0f9f66163b2674c88cbd380c2c290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_4.asset using Guid(ad0f9f66163b2674c88cbd380c2c290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383e1626fb5853f46d771aa340225061') in 0.046704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001271 seconds.
+  path: Assets/MapData/Library/lib_31.asset
+  artifactKey: Guid(cc1f4278f10b2c446984f0f9ff769933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_31.asset using Guid(cc1f4278f10b2c446984f0f9ff769933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd12a0780ff5b203e52ebbf16c39c52') in 0.040566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/MapData/Library/lib_46.asset
+  artifactKey: Guid(833d3ea11b88c6f4abd1d5fb1483eaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapData/Library/lib_46.asset using Guid(833d3ea11b88c6f4abd1d5fb1483eaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeb8c69261ecf8398b039b3d682a59f') in 0.071051 seconds 
